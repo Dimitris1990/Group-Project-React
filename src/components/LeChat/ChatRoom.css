@@ -1,0 +1,85 @@
+.chat-room-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 280px;
+    margin-TOP: 32px;
+}
+
+.room-name {
+    margin-top: 0;
+    /* margin-bottom:10px; */
+    padding-left:10px;
+    color: white;
+}
+
+.messages-container {
+    flex: 1;
+    background:linear-gradient(180deg, rgba(44, 57, 83, 0.685) 10%, rgba(29, 59, 102, 0.514) 20%, rgba(22, 95, 138, 0.431) 60%);
+
+    min-height: 100px;
+    overflow: auto;
+    /* border: 1px solid black; */
+    border-radius: 7px 7px 0 0;
+}
+
+.messages-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.new-message-input-field {
+    height: 100px;
+    max-height: 50%;
+    font-size: 20px;
+    padding: 8px 12px;
+    resize: none;
+    background-color:rgb(158, 158, 158);
+    border-top:5px solid white;
+    color: white;
+}
+
+.message-item {
+    width: 35%;
+    margin: 8px;
+    padding: 12px 28px 12px 30px;
+    word-break: break-word;
+    border-radius: 4px;
+    color: white;
+}
+
+.my-message {
+    background-color: rgb(0, 100, 200);
+    margin-left: auto;
+    box-shadow: 5px 10px 10px rgba(0,0,0,1);
+}
+
+.received-message {
+    background-color: rgb(107, 107, 107);
+    margin-right: auto;
+    box-shadow: -5px 10px 10px rgba(0,0,0,1);
+}
+
+.send-message-button {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    background: rgb(30, 45, 80);
+    padding: 24px 12px;
+    border: none;
+}
+.send-message-button:hover {
+    background: rgb(64, 72, 90);
+    transition: 300ms ease-in-out;
+}
+
+.messages-container, .new-message-input-field, .send-message-button {
+    /* border-color: #9a9a9a; */
+}
+.myname{
+    color: black;
+}

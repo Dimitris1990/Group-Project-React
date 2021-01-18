@@ -1,0 +1,19 @@
+.fundscont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 380px; */
+    /* position: fixed; */
+    z-index:999;
+    margin: 0;
+}
+
+.balancediv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 16px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+.news-cont{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 80%;
+    padding-right: 5% !important;
+}
+
+.NavigationBar{
+    padding-left: 70.5%!important;
+}
+
+.ItemCont{
+    padding-right: 100px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.5)!important;
+}
